@@ -1,0 +1,50 @@
+﻿nav {
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+body {
+    color: #51836d !important;
+}
+
+.rounded-circle {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#downloads li {
+    background-color: #e9efed;
+}
+
+footer {
+    background-color: #51836d;
+    color: white;
+}
+
+
+
+.demo-content {
+    color: #fff;
+    display: flex;
+    font-family: Helvetica;
+    font-weight: 100;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-size: 56px;
+    height: 250px;
+    width: 100%;
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+

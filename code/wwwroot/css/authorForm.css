@@ -1,0 +1,407 @@
+﻿* {
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+nav {
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+    nav a {
+        text-decoration: none;
+    }
+
+body {
+    color: #51836d !important;
+}
+
+.rounded-circle {
+    border: 40px solid #537344;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+
+#downloads li {
+    background-color: #e9efed;
+}
+
+footer {
+    background-color: #51836d;
+    color: white;
+}
+
+.author_information {
+    /* border: .5px solid lightgray;
+    border-radius: 25px;*/
+    background: #ebf2ef !important;
+    /*    padding: 20px;
+*/ /*margin: auto;*/
+    /*    width: 50%;
+*/ /*color: #537344;*/
+}
+
+.formError {
+    display: inline-block;
+    color: red;
+    font-size: .75em;
+}
+
+.book_information, .other_information {
+/*    border: .5px solid lightgray;
+    border-radius: 25px;*/
+    background: #ebf2ef!important;
+/*    padding: 20px;
+*/    /*margin: auto;
+        width: 50%;
+ color: #537344;
+    margin-top: 35px;*/
+}
+
+
+
+#mainTitle {
+    text-align: center;
+    padding-top: .5em;
+    letter-spacing: .12em;
+    font-size: 25px;
+    font-weight: bold;
+    color: #537344;
+}
+
+#informationTitle {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+    letter-spacing: .1em;
+}
+
+.authorDetails, .booksDetails, .otherDetails {
+    margin: 20px;
+}
+
+.card-header button {
+    color: #537344;
+}
+
+input[type="submit"], .myBtn, .cart-btn {
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-color: #537344;
+    font-size: 14px;
+    padding: 10px 35px 10px 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    width: 250px;
+}
+
+#characterTitle {
+    text-align: center;
+    letter-spacing: .1em;
+}
+
+#socialMediaTitle {
+    text-align: center;
+    letter-spacing: .1em;
+}
+
+#videoItems {
+    text-align: center;
+    letter-spacing: .1em;
+}
+
+#downloadItems {
+    text-align: center;
+    letter-spacing: .1em;
+    padding-bottom: 10px;
+}
+
+select {
+    color: #537344;
+    width: 250px;
+}
+
+#errors {
+    color: red;
+    font-weight: bold;
+}
+
+#book-grid-carousel a {
+    color: #537344;
+    text-decoration: none;
+}
+
+.modal-image {
+    float: left;
+}
+.modal:before{
+    display:inline-block;
+    height: 100%;
+    vertical-align:middle;
+}
+
+
+/*Fix image size in the book-grid*/
+.book-grid-img {
+    object-fit: cover;
+    height: 150px;
+    width: 125px;
+}
+
+.carousel-inner .card {
+    text-align: center;
+    height: 150px;
+    width: 125px;
+}
+
+.modal .col {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .author_information {
+        margin: auto;
+        max-width: 750px;
+    }
+
+    .book_information, .other_information {
+        margin: auto;
+        max-width: 750px;
+        margin-top: 35px;
+    }
+
+    .responsiveImage {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .responsiveImage {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .responsiveImage {
+        height: 100%;
+    }
+}
+
+/*Login Form Styles*/
+button {
+    border-radius: 10px;
+    color: white;
+    background-color: #537344;
+    font-size: 18px;
+    padding: 10px 35px 10px 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: .2em;
+}
+
+form h2 {
+    color: #537344;
+    letter-spacing: .1em;
+    font-size: 40px;
+}
+
+form p {
+    font-size: 18px;
+    color: #537344;
+}
+
+    form p a {
+        font-weight: bold;
+        color: #537344;
+    }
+
+.cardStyle {
+    background-color: #ebf2ef;
+    border-radius: 100px;
+    border: none;
+}
+
+form {
+    text-align: center;
+}
+
+.accountErrors {
+    text-align: center;
+    color: red;
+}
+
+.bookGrid {
+    border-radius: 20px;
+}
+
+.far.fa-user {
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
+}
+
+.fas.fa-sign-out-alt {
+    font-size: 30px;
+    color: white;
+}
+
+.sample {
+    margin-left: 50px;
+    color: white;
+}
+
+a.nav-link.active {
+    text-align: center;
+}
+
+form.d-flex {
+    justify-content: center;
+}
+
+.navbar-brand {
+    margin-right: 75px;
+}
+
+a.nav-link.active:hover {
+    font-weight: bold;
+}
+
+/*Account Success Page*/
+.successBox {
+    background-color: #e9efed;
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.titleCongrats {
+    color: #537344;
+}
+
+.descriptionSuccess {
+    font-size: 20px;
+}
+
+    .descriptionSuccess a {
+        color: #537344;
+    }
+
+        .descriptionSuccess a:hover {
+            font-weight: bold;
+        }
+
+.errorHandling {
+    color: red;
+    font-weight: bold;
+}
+
+.linkedinLink {
+    color: white;
+}
+
+    .linkedinLink:hover {
+        font-weight: bold;
+        color: white;
+    }
+
+/*Some author page styles*/
+#videoTitle {
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #537344;
+    padding-bottom: 10px;
+}
+
+#bottomAreaStyle {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #537344;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#characterFeaturedTitle {
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #537344;
+}
+
+#characterSpecial {
+    color: #537344;
+    padding: 15px;
+}
+
+#spacing {
+    padding-bottom: 30px;
+}
+
+#bookGridTitle {
+    font-size: 35px;
+    letter-spacing: 7px;
+    color: #537344;
+    font-weight: bold;
+}
+
+.bookGridIndividual {
+    color: white;
+    height: 14px;
+}
+
+#downloadTitle {
+    color: #537344;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#authorImage{
+    border-radius: 50%;
+}
+
+#authorsNameTitle {
+    color: #537344;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.authorBioBorderRad {
+    border-radius: 25px;
+}
+
+.editStyles {
+    border-radius: 10px;
+    color: white;
+    background-color: #537344;
+    font-size: 18px;
+    padding: 10px 25px 10px 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: .2em;
+    border: 1px solid #537344
+}
+
+    .editStyles:hover {
+        background-color: #537344;
+        font-weight: bold;
+        border: 1px solid #537344
+    }
+
+#smaller {
+    font-size: 14px;
+}
+
+.other_information{
+
+}
+
+.slick-prev:before, .slick-next:before {
+    color: rgb(81,131,109) !important;
+    font-size: 40px !important;
+    line-height: 1 !important;
+}
+

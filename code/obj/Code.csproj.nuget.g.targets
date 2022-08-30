@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.4-beta1.22168.1\build\Microsoft.CodeAnalysis.Analyzers.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.4-beta1.22168.1\build\Microsoft.CodeAnalysis.Analyzers.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.mvc.razor.runtimecompilation\3.1.23\buildTransitive\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.mvc.razor.runtimecompilation\3.1.23\buildTransitive\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.identity.ui\3.1.18\buildTransitive\Microsoft.AspnetCore.Identity.UI.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.identity.ui\3.1.18\buildTransitive\Microsoft.AspnetCore.Identity.UI.targets')" />
+  </ImportGroup>
+</Project>
